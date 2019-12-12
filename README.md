@@ -84,7 +84,7 @@ daemonite-material/
 │   ├── material.min.css
 │   └── material.min.css.map
 ├── docs/
-│   └── 4.1/
+│   └── 4.4/
 └── js/
     ├── material.js
     ├── material.js.map

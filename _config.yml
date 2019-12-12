@@ -17,6 +17,7 @@ plugins:
                   - jekyll-redirect-from
                   - jekyll-sitemap
                   - jekyll-toc
+                  - jekyll-target-blank
 
 # server
 baseurl:          "/material" # workaround for our GitHub Pages hosting
@@ -72,7 +73,7 @@ current_version:  "4.4.1"
 docs_version:     "4.4"
 download:
   source:         "https://github.com/Daemonite/material/archive/v4.4.1.zip"
-  dist:           "https://github.com/Daemonite/material/releases/download/v4.1.1/material-4.4.1-dist.zip"
+  dist:           "https://github.com/Daemonite/material/releases/download/v4.4.1/material-4.4.1-dist.zip"
 id:
   main:           "doc-main-h1"
   navbar:         "doc-navbar"
