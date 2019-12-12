@@ -22,13 +22,17 @@ const plugins  = [
     externalHelpersWhitelist: [
       'createClass',
       'defineProperty',
-      'objectSpread'
+      'objectSpread',
+      'objectSpread2',
     ]
   }),
-  commonjs({
-    sourceMap: false
+  resolve({
+    jsnext: true,  // Default: false
+    main: true,  // Default: true
   }),
-  resolve()
+  commonjs({
+    sourceMap: false,
+  })
 ]
 
 module.exports = {
@@ -42,4 +46,5 @@ module.exports = {
     name: 'material'
   },
   plugins
+
 }
