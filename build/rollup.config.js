@@ -26,13 +26,10 @@ const plugins  = [
       'objectSpread2',
     ]
   }),
-  resolve({
-    jsnext: true,  // Default: false
-    main: true,  // Default: true
-  }),
   commonjs({
     sourceMap: false,
-  })
+  }),
+  resolve(),
 ]
 
 module.exports = {
@@ -46,5 +43,4 @@ module.exports = {
     name: 'material'
   },
   plugins
-
 }
