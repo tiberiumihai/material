@@ -40,6 +40,7 @@
   "label-req-for": true,
   "lang-style": "case",
   "line-end-style": "lf",
+  "link-req-noopener": false,
   "spec-char-escape": false,
   "table-req-header": false,
   "tag-bans": [
