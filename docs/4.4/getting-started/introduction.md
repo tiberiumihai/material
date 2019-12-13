@@ -44,7 +44,7 @@ daemonite-material/
 │   └── scss/
 ├── css/
 ├── docs/
-│   └── 4.1/
+│   └── 4.4/
 └── js/
 {% endhighlight %}
 
